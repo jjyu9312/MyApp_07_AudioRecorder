@@ -16,7 +16,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         initViews()
+
     }
+
 
     private fun initViews() {
         recordButtton.updateIconWithState(state)

@@ -5,6 +5,7 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
 
+
     private val recordButtton: RecordButtton by lazy {
         findViewById(R.id.recordButton)
     }
@@ -22,6 +23,10 @@ class MainActivity : AppCompatActivity() {
     private fun initViews() {
         recordButtton.updateIconWithState(state)
     }
+
+
+
+
 
 
 }

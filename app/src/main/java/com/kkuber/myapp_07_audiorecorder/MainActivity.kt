@@ -23,12 +23,6 @@ class MainActivity : AppCompatActivity() {
     private fun initViews() {
         recordButtton.updateIconWithState(state)
     }
-
-
-
-
-
-
 }
 
 
